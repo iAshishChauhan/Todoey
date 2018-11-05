@@ -60,7 +60,7 @@ class TodoListViewController: UITableViewController {
             self.tableView.reloadData() //It reloads the rows and tables of table View and update the changes in the table view after updating itemArray.
             
         }
-        
+    
         alert.addAction(action)
         
         alert.addTextField { (alertTextField) in
